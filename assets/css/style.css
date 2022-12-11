@@ -1,0 +1,50 @@
+* {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+header {
+  font-size: 40px;
+  background-color: darkslategray;
+}
+
+nav {
+  font-size: 36px;
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.banner {
+  position: relative;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.container {
+  background: pink;
+  padding: 0.5em;
+  margin: 2.5vh auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 24px;
+  display: flex;
+  justify-content: flex-end;
+}
