@@ -1,50 +1,138 @@
+:root {
+  --dark: rgba(0,0,0,0.76);
+  --light: rgba(0,255,255,1);
+}
+
 * {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-header {
-  font-size: 40px;
-  background-color: darkslategray;
+body {margin: 0}
+
+a{
+  color: var(--light)
 }
 
-nav {
-  font-size: 36px;
-  float: right;
+header {display: block;
+width: 1440px;
+height: 95px;
+left:0px;
+top: -1px;
+background: var(--dark)}
+
+header h1 {
+  display: inline-block;
+  height: 74px;
+  left: 0px;
+  top: 10px;
+  margin-top: 10px;
+
+  background:var(--light);
 }
 
-ul {
+header nav {
+  padding-top: 15px;
+margin-right: 20px;
+float: right;
+font-family: 'Times New Roman', Times, serif;
+font-size: 36px}
+
+header nav ul {
   list-style-type: none;
 }
 
-li {
+ header nav ul li {
   display: inline-block;
-  margin-left: 25px;
+  margin-left: 25px}
+
+figure {
+  position: block;
+  height: 275px;
+  width: 1440px;
+  top: 90px;
+background-image: url(./clouds-sky-banner-header.jpg);
+background-size: cover;
+background-position: center;
 }
 
-.banner {
-  position: relative;
-}
-img {
-  width: 100%;
-  height: auto;
-}
-.container {
-  background: pink;
-  padding: 0.5em;
-  margin: 2.5vh auto 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
+figure .mystarterwebsite {
+  position: relative;;
+  width: 254px;
+  height: 50px;
+  left: 1171px;
+  top: 212px;
 
-h1 {
-  font-size: 36px;
-}
+  background: #d9d9d9;
 
-p {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 800;
   font-size: 24px;
+  line-height: 29px;
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+main section {
+  margin-top: 50px;
+  padding: 10px;
+  border: 2 px dashed var(--light)
+}
+
+section {
+  width: 100%;
+  margin: 30px;
+  padding: 10px;
+}
+
+main section h2 {
+  display: flex;
+  align-items: center;
+ border-right: 5px solid var(--light);
+}
+
+section p {
+  align-items: center;
+  margin-left: 3%;
+  flex: 0 0 60%;
+}
+
+img {
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  border: 15px solid var(--light);
+  margin:25px;
+  border-radius: 50px;
+  margin-left: 5%;
+  flex-wrap: wrap;
+}
+
+
+/* Tablets */
+@media screen and (max-width: 992px) {
+  header {
+    background: hotpink;
+  }
+}
+
+/* Large smartphones */
+@media screen and (max-width: 768px) {
+  nav {
+    background-color: green;
+  }
+}
+
+/* Small smartphones */
+@media screen and (max-width: 576px) {
+  .sample-img {
+    background-color: #8ac4ff;
+  }
 }
