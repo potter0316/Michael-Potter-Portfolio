@@ -82,16 +82,13 @@ main section h2 {
   border-right: 5px solid var(--light);
 }
 
-section .right {
-  margin-left: 3%;
-  flex: 0 0 60%;
-}
-
 div {display: flex;
 flex-wrap: wrap;
 }
+.previous {border: 15px solid var(--light);
+margin: 10px}
 
-img {
+.section {
   flex: 1 0 0;
   width: 400px;
   height: 400px;
