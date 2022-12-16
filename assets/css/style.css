@@ -71,7 +71,7 @@ figure .mystarterwebsite {
 main section {
   display: flex;
   margin-top: 50px;
-  padding: px;
+  padding: 20px;
 }
 
 main section h2 {
@@ -92,12 +92,13 @@ flex-wrap: wrap;
 }
 
 img {
-  flex: 0 1 1;
+  flex: 1 0 0;
   width: 400px;
   height: 400px;
   border: 15px solid var(--light);
   margin: 10px;
 }
+
 img:hover {
  opacity: 0.5;
 }
@@ -109,19 +110,9 @@ margin: 5%}
 
 /* Tablets */
 @media screen and (max-width: 992px) {
-  header {
-    background: hotpink;
-  }
-}
-
-/* Large smartphones */
-@media screen and (max-width: 768px) {
-    p {font-size: 36px;}
-}
-
-/* Small smartphones */
-@media screen and (max-width: 576px) {
-  .sample-img {
-    background-color: #8ac4ff;
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
