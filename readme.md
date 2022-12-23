@@ -9,13 +9,11 @@ I want to set up a website to track my progress through coding bootcamp. I also 
 
 Used the image from the previous project
 
-![Horiseon Sample Image](assets/images/01-html-css-git-homework-demo.png)
+![Horiseon Sample Image](assets/css/Advanced-css-portfolio.png)
 
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+Used images from the the assets file from UofM gitlab site.
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+[Link to Deploy Application](https://potter0316.github.io/Michael-Potter-Portfolio/)
